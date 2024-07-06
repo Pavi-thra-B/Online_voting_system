@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVS HOME PAGE</title>
+    <link rel="icon" href="home.png">
+    <link rel="stylesheet" href="home1.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "sams-serif";
+  }
+body
+{
+    background-image: url("ovsbackground.jpg");
+    
+}
+.topic
+{  
+    height:45px;
+    width:1400px;
+    background-color: rgb(6, 224, 240);
+    padding:10px;
+    border-color:black;
+    border-radius:10px;
+    margin-left:10px;
+    border-style:double;   
+}
+#h
+{
+    text-align: center;
+    margin-top:1px;
+    margin-left: 10px;
+}
+
+  .option {
+    height: 3%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .alloptions {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+
+  .alloptions img
+  {
+   
+    height:170px;
+    width:170px;
+}
+
+  .content1
+  {
+    height:200px;
+    width:180px;
+    background-color: rgb(6, 224, 240);
+    border-radius:30px;
+    padding:10px;
+    border-style:solid;
+    margin-right:70px;
+   
+  
+  }
+  .content2
+  {
+    height:200px;
+    width:180px;
+    background-color: rgb(6, 224, 240);
+    border-radius:30px;
+    padding:15px;
+    border-style:solid;
+    margin-right:70px;
+
+  }
+ 
+  .content3
+  {
+    height:200px;
+    width:180px;
+    background-color: rgb(6, 224, 240);
+    border-radius:30px;
+    padding:15px;
+    border-style:solid;
+    margin-right:70px;
+
+  }
+ 
+  .content4
+  {
+    height:200px;
+    width:180px;
+    background-color: rgb(6, 224, 240);
+    border-radius:30px;
+    padding:15px;
+    border-style:solid;
+    margin-right:0px;
+
+  }
+
+  #info1 
+  {
+    margin-top:7px;
+    margin-left:50px;
+    margin-bottom: 15px;
+  }
+  #info2
+  {
+    margin-top:7px;
+    margin-left:40px;
+    margin-bottom: 7px;
+  }
+  #info3
+  {
+    margin-top:7px;
+    margin-left:10px;
+    margin-bottom: 7px;
+   
+  }
+ 
+  #info4
+  {
+    margin-top:10px;
+    margin-left:50px;
+    margin-bottom: 7px;
+  }
+  .btn
+  { 
+    height:25px;
+    background-color:rgb(6, 224, 240);
+    border-style: groove;
+    padding:3px ;
+    font-weight: bold;
+    border-radius:5px;
+    font-size: 15px;
+    transition: 400ms;
+  }
+
+  .btn:hover {
+   
+    transform: scale(1.03);
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="topic">
+           
+            <h1 id="h">Online Voting System</h1>
+            <div class="option">
+            </div>
+        </div>
+        <div class="alloptions">
+            <div class ="voter">
+                <div class="content1">
+                    <img src="voter.png" alt="voter">
+                    <a href="voterlogin.php"><h3 id="info1"><button class="btn">VOTER</button></h3></a>
+                </div>
+                
+            </div>
+            <div class ="candidate">
+                <div class="content2">
+                    <img src="candidate.jpeg" alt="candidate">
+                    <a href="candidatelogin.php"><h3  id="info2"><button class="btn">CANDIDATE</button></h3></a>
+                </div>
+                
+            </div>
+            
+            <div class ="admin">
+                <div class="content3">
+                    <img src="admin.png" alt="admin">
+                    <center>
+                    <a href="adminlogin.php"><h3  id="info3"><button class="btn">ADMIN</button></h3></a>
+                </center>
+                </div>
+                
+            </div>
+            <div class ="result">
+                <div class="content4">
+                    <img src="result.png" alt="result">
+                    <a href="result_login.php"><h3  id="info4"><button class="btn">RESULT</button></h3></a>
+                </div>
+                
+            </div>
+        </div>
+        
+       
+    </div>
+   
+
+    
+</body>
+</html>
